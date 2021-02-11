@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "49444733263",
+    "project_id": "poltavagaz-3e278",
+    "storage_bucket": "poltavagaz-3e278.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:49444733263:android:6542e0f8673196ebcc453a",
+        "android_client_info": {
+          "package_name": "com.pupukaka.practika"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "49444733263-4opqg9u9549tmd7kp0h815l6ln6mo125.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pupukaka.practika",
+            "certificate_hash": "f6bab74e7a2f667a382cfd0fd68a7fea08004e6a"
+          }
+        },
+        {
+          "client_id": "49444733263-2f4m75e52cr6pfs3ats2v1ti8mtpjhli.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3_JFUem39-9_7QQZmqKB861eLkUXX6yQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "49444733263-2f4m75e52cr6pfs3ats2v1ti8mtpjhli.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

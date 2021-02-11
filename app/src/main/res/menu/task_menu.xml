@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/taskArchive"
+        android:icon="@drawable/ic_baseline_all_inbox_24"
+        android:title="Архів"
+        android:visible="true"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/calculated"
+        android:icon="@drawable/ic_baseline_calculate_24"
+        android:title="Обрахунки режимів різання"
+        android:visible="true"
+        app:showAsAction="always" />
+</menu>

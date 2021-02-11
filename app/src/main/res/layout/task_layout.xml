@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical"
+    android:layout_margin="10dp"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/blueprintImageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:srcCompat="@android:drawable/btn_star_big_on" />
+
+
+    <TextView
+        android:id="@+id/numberTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/blueprintImageView"
+        android:text="№ робочого місця:"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:layout_marginTop="8dp"
+        android:textColor="@android:color/black"
+        />
+        <TextView
+            android:id="@+id/numberOfWorkPlaceTextView"
+            android:layout_width="230dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/blueprintImageView"
+            android:layout_toRightOf="@id/numberTextView"
+            android:text="0000"
+            android:layout_marginLeft="40dp"
+            android:textSize="20sp"
+            android:layout_marginTop="8dp"
+            android:textColor="@android:color/black"
+            />
+
+    <TextView
+        android:id="@+id/termTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/numberOfWorkPlaceTextView"
+        android:layout_marginTop="8dp"
+        android:text="Срок выполнения:"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@android:color/black" />
+
+        <TextView
+            android:id="@+id/timeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/numberOfWorkPlaceTextView"
+            android:layout_toRightOf="@id/termTextView"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="48dp"
+            android:text="13:35"
+            android:textSize="20sp"
+            android:textColor="@android:color/black" />
+
+</RelativeLayout>

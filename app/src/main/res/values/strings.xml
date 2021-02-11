@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Practika</string>
+    <string name="login">Натисніть, щоб <b>створити новий акаунт</b></string>
+    <string name="sign_up">Натисніть, щоб <b>увійти в існуючий акаунт</b></string>
+    <string name="welcome">Ласкаво просимо!</string>
+    <string name="workspace_number"> Номер робочого місця</string>
+    <string name="button_text1">Увійти</string>
+    <string name="button_text2">Зареєструватися</string>
+    <string name="password"> Пароль</string>
+    <string name="email_string">Електронна пошта</string>
+    <string name="name_string">ПІП</string>
+    <string name="security_string">Код Безпеки</string>
+</resources>
